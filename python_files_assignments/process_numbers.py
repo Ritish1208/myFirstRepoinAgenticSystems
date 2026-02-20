@@ -27,7 +27,8 @@ with open("results.log","a") as log_file :
         log_file.write(f"Read {total_numbers} numbers.\n")
         log_file.write(f"Sum : {sum_numbers}\n")
         log_file.write(f"Average : {average_numbers}\n")
-        log_file.write(f"{processing_status}\n\n") #extra newline for readability
+        log_file.write(f"{processing_status}\n\n") #extra newline for readability 
+        #Printing extra output statements in the terminal 
         print(f"Read {total_numbers} numbers.")
         print(f"Sum : {sum_numbers}")
         print(f"Average : {average_numbers}")
