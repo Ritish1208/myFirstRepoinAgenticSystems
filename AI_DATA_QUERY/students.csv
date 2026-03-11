@@ -1,0 +1,11 @@
+Name,Score,Passed,Category
+Alice,95,True,A
+Bob,92,True,A
+Charlie,78,False,B
+David,88,True,B
+Eva,91,True,A
+Frank,67,False,C
+Grace,85,True,B
+Henry,73,False,C
+Jeremy,85,True,B
+Luna,98,True,A
