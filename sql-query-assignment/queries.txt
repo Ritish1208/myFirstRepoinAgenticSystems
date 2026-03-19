@@ -1,0 +1,32 @@
+SELECT * FROM students;
+
+SELECT name, score FROM students;
+
+SELECT * FROM students
+Where score>80;
+
+SELECT * FROM students
+where score > 80 and passed= true;
+
+SELECT * FROM students
+where score >85 or class = 9;
+
+SELECT * FROM students
+Where  NOT passed = 1;
+
+SELECT  DISTINCT class FROM students;
+
+SELECT*FROM students
+ORDER BY score DESC
+LIMIT 5;
+
+SELECT * FROM students
+ORDER BY class ASC, score DESC;
+
+SELECT name, score as final_score From students;
+
+SELECT name, score 
+FROM students
+WHERE  score>75
+ORDER BY score DESC
+LIMIT 3;
